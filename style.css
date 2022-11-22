@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  height: 55px;
+  line-height: 55px;
+  width: 98%;
+  margin: 8px auto;
+}
+
+header > ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+header > ul > li {
+  font-size: 15px;
+  margin: 0 10px;
+  display: flex;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+header > ul > li:nth-child(3) {
+  width: 25px;
+}
+
+.profile {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+main {
+  margin: 40px auto;
+}
+.google {
+  text-align: center;
+}
+
+.search-input {
+  display: flex;
+  z-index: 3;
+  height: 44px;
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  margin: 20px auto;
+  width: calc(632px + 6px);
+  width: auto;
+  max-width: 584px;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.search-input:hover {
+  background-color: #fff;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
+}
+
+.meg {
+  margin-right: 10px;
+}
+
+.voice {
+  margin: 0 10px;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  height: 34px;
+  font-size: 16px;
+}
+
+.search {
+  width: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+button:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+
+.offer {
+  text-align: center;
+  margin: 10px 0;
+  color: #818181;
+  font-size: 14px;
+}
+
+.language {
+  color: #1a0dab;
+}
